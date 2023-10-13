@@ -37,14 +37,9 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'title',
+        name: 'badges',
         message: 'Name Your Project.'
     },   
-    {
-        type: 'input',
-        name: 'title',
-        message: 'Name Your Project.'
-    },
     {
         type: 'input',
         name: 'features',
