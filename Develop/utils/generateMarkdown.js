@@ -3,16 +3,37 @@ function generateMarkdown(data) {
   return `
   
   # ${data.title}
- ${data.licenseBadge} 
+ ${data.badge} 
 
  ## Description
  ${data.description}
 
  ## Table of Contents
+ -Installation
+ -Usage
+ -Credits
+ -License
+ -Features
+ -Contributions
  
- 
+ ## Installation 
+ ${data.installation}
 
+ ## Usage
+ ${data.usage}
+
+ ## Credits
+ ${data.credits}
+
+ ## License
+ ${data.badge}
+ ${data.license}
   
+ ## Features
+ ${data.features}
+
+ ## Contributions
+ ${data.contributions}
 `;
 }
 

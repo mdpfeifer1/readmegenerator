@@ -36,19 +36,19 @@ inquirer
       name: "license",
       message: "Add a license.",
     },
-    {
-      type: "input",
-      name: "badges",
-      message: "Select a Badge.",
-    },
+    // {
+    //   type: "input",
+    //   name: "badges",
+    //   message: "Select a Badge.",
+    // },
     {
       type: "input",
       name: "features",
       message: "If your project has features list them here.",
     },
     {
-      type: "How to Contribute",
-      name: "title",
+      type: "input",
+      name: "contributions",
       message:
         "If you would like other developers contributions, list step by step.",
     },
@@ -65,7 +65,7 @@ inquirer
     } else if (answers.license === "Apache 2.0") {
       answers.licenseBadge =
         "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)";
-    } else if (answers.license === "GPL 3.0") {
+    } else if (answers.license === "MPL 2.0") {
       answers.licenseBadge =
         "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
 
