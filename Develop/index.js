@@ -72,7 +72,7 @@ inquirer
       const markDownAnswers = generateMarkdown(answers);
 
       // TODO: Create a function to write README file
-      fs.writeFileSync(`README.md`, markDownAnswers, "utf-8");
+      fs.writeFile(`README.md`, markDownAnswers, "utf8");
       console.log("Your Readme has been generated!");
     }
   });
